@@ -19,7 +19,7 @@ import Kitura
 // Create a new router
 let router = Router()
 
-// Create salutations
+// Create cards
 let cards = ["A room without books is like a body without a soul.","Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.","Don’t walk in front of me… I may not follow. Don’t walk behind me… I may not lead. Walk beside me… just be my friend","Always forgive your enemies; nothing annoys them so much."]
 
 // Handle HTTP GET requests to /cards
