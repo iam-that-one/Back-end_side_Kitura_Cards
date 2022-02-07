@@ -26,7 +26,7 @@ let cards = ["A room without books is like a body without a soul.","Be who you a
 router.get("/cards") {
     request, response, next in
 #if os(Linux)
-    let idx = Int(random() % salutations.count)
+    let idx = Int(random() % cards.count)
 #else
     let idx = Int(arc4random_uniform(UInt32(cards.count)))
     let encoder = JSONEncoder()
